@@ -101,9 +101,22 @@ p{
     color:hsl(0, 0%, 50%);
 
 }
+
+@media screen and (min-width:768px) {
+    .card-background{
+        margin:30% auto;
+        width:50%;
+    }
+}  
 @media screen and (min-width:1440px) {
     .card-background{
         margin:20% auto;
-        width:25%;
+        width:30%;
     }
 }
+@media screen and (min-width:2560px) {
+    .card-background{
+        margin:10% auto;
+        width:20%;
+    }
+}  
